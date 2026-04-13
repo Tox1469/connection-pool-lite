@@ -1,0 +1,26 @@
+{
+  "name": "connection-pool-lite",
+  "version": "1.0.0",
+  "description": "Pool de conexoes generico com fila de espera.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "pool",
+    "connection",
+    "database",
+    "async"
+  ],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
